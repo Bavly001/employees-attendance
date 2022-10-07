@@ -1,0 +1,31 @@
+*{
+     transition: 0.5s;
+}
+::-webkit-scrollbar {
+     display: none;
+}
+.black-background {
+     background-color: rgba(0, 0, 0, 0.7);
+     z-index: -1;
+}
+#background {
+     filter: blur(4px);
+     z-index: -2;
+}
+.w-30 {
+     width: 30%;
+}
+.vh-7 {
+     height: 7vh;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+     -moz-appearance: textfield;
+}
